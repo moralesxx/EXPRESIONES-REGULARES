@@ -36,7 +36,7 @@ user1727@test.org, +50216646838, https://missingcolon.com, 5633.83
 
 
 <!--DATOS DE SALIDA UN ARCHIVO LLAMADO: resultado.csv-->
-ARCHIVO DE SALIDA .csv --------> resultado.csv
+- ARCHIVO DE SALIDA .csv --------> resultado.csv
 <!--COLUMNAS DATOS DE SALIDA-->
 campo,valor_original,es_valido,valor_normalizado,motivo
 <!--EJEMPLO 1--> 
@@ -52,6 +52,7 @@ monto, 5633.83, true, 5633.83,
 
 
 <!--DATOS DE SALIDA UN ARCHIVO LLAMADO: resultado.json-->
+- ARCHIVO DE SALIDA .json ------> resultado.json
 <!--EJEMPLO 1-->
 {
   "campo" : "email",
