@@ -27,7 +27,7 @@ una con la lógica correspondiente a lo que se solicita, así mismo, quiero dar 
 - 2 EJEMPLOS DE CASOS VALIDOS 
 - ARCHIVO DE ENTRADA .csv -------> DATOS_ENTRADA.csv
 <!--COLUMNAS DATOS DE ENTRADA-->
-email, telefono, url, monto
+email,telefono,url,monto
 <!--EJEMPLO 1--> 
 user774@example.com, +50290969937, https://page.net, 1234.56
 <!--EJEMPLO 2--> 
@@ -38,7 +38,7 @@ user1727@test.org, +50216646838, https://missingcolon.com, 5633.83
 <!--DATOS DE SALIDA UN ARCHIVO LLAMADO: resultado.csv-->
 - ARCHIVO DE SALIDA .csv --------> resultado.csv
 <!--COLUMNAS DATOS DE SALIDA-->
-campo, valor_original, es_valido, valor_normalizado, motivo
+campo,valor_original,es_valido,valor_normalizado,motivo
 <!--EJEMPLO 1--> 
 email, user774@example.com, true, user774@example.com,
 
@@ -134,7 +134,7 @@ monto, 5633.83, true, 5633.83,
 <!--DATOS DE ENTRADA UN ARCHIVO LLAMADO: DATOS_ENTRADA.csv-->
 - ARCHIVO DE ENTRADA .csv -------> DATOS_ENTRADA.csv
 <!--COLUMNAS DATOS DE ENTRADA-->
-email, telefono, url, monto
+email,telefono,url,monto
 <!--EJEMPLO 1--> 
 bademail.com, 1234, htt://fail.com, abc
 <!--EJEMPLO 2--> 
@@ -144,7 +144,7 @@ user@@example.com, +50, https://wrong-url, 12,34
 <!--DATOS DE SALIDA UN ARCHIVO LLAMADO: resultado.csv-->
 - ARCHIVO DE SALIDA .csv --------> resultado.csv
 <!--COLUMNAS DATOS DE SALIDA-->
-campo, valor_original, es_valido, valor_normalizado, motivo
+campo,valor_original,es_valido,valor_normalizado,motivo
 <!--EJEMPLO 1--> 
 email, bademail.com, false, ,Formato invalido
 
