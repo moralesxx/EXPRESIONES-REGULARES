@@ -25,7 +25,7 @@ una con la lógica correspondiente a lo que se solicita, así mismo, quiero dar 
 <!--2 EJEMPLOS DE CASOS VALIDOS-->
 <!--DATOS DE ENTRADA UN ARCHIVO LLAMADO: DATOS_ENTRADA.csv-->
 - 2 EJEMPLOS DE CASOS VALIDOS 
-ARCHIVO DE ENTRADA .csv -------> DATOS_ENTRADA.csv
+- ARCHIVO DE ENTRADA .csv -------> DATOS_ENTRADA.csv
 <!--COLUMNAS DATOS DE ENTRADA-->
 email,telefono,url,monto
 <!--EJEMPLO 1--> 
@@ -111,33 +111,34 @@ monto, 5633.83, true, 5633.83,
 
 
 
-<!--2 EJEMPLOS DE CASOS INVALIDOS-->
+- 2 EJEMPLOS DE CASOS INVALIDOS
 <!--DATOS DE ENTRADA UN ARCHIVO LLAMADO: DATOS_ENTRADA.csv-->
-ARCHIVO DE ENTRADA .csv -------> DATOS_ENTRADA.csv
+- ARCHIVO DE ENTRADA .csv -------> DATOS_ENTRADA.csv
 <!--COLUMNAS DATOS DE ENTRADA-->
 email,telefono,url,monto
 <!--EJEMPLO 1--> 
-bademail.com,1234,htt://fail.com,abc
+bademail.com, 1234, htt://fail.com, abc
 <!--EJEMPLO 2--> 
-user@@example.com,+50,https://wrong-url,12,34
+user@@example.com, +50, https://wrong-url, 12,34
 
 
 <!--DATOS DE SALIDA UN ARCHIVO LLAMADO: resultado.csv-->
-ARCHIVO DE SALIDA .csv --------> resultado.csv
+- ARCHIVO DE SALIDA .csv --------> resultado.csv
 <!--COLUMNAS DATOS DE SALIDA-->
 campo,valor_original,es_valido,valor_normalizado,motivo
 <!--EJEMPLO 1--> 
-email,bademail.com,false,,Formato invalido
-telefono,1234,false,,Formato invalido
-url,htt://fail.com,false,,Formato invalido
-monto,abc,false,,No es un número decimal válido
+email, bademail.com, false, ,Formato invalido
+telefono, 1234, false, ,Formato invalido
+url, htt://fail.com, false, ,Formato invalido
+monto, abc, false, ,No es un número decimal válido
 <!--EJEMPLO 2--> 
-email,user@@example.com,false,,Formato invalido
-telefono,+50,false,,Formato invalido
-url,https://wrong-url,false,,Formato invalido
-monto,12,true,12,
+email, user@@example.com, false, ,Formato invalido
+telefono, +50, false, ,Formato invalido
+url, https://wrong-url, false, ,Formato invalido
+monto, 12, true, 12,
 
 
+- ARCHIVO DE SALIDA .json ------> resultado.json
 <!--DATOS DE SALIDA UN ARCHIVO LLAMADO: resultado.json-->
 <!--EJEMPLO 1-->
 {
