@@ -60,19 +60,25 @@ monto, 5633.83, true, 5633.83,
   "valorOriginal" : "user774@example.com",
   "valorNormalizado" : "user774@example.com",
   "esValido" : true
-}, {
+}, 
+
+{
   "campo" : "telefono",
   "motivo" : "",
   "valorOriginal" : "+50290969937",
   "valorNormalizado" : "+50290969937",
   "esValido" : true
-}, {
+}, 
+
+{
   "campo" : "url",
   "motivo" : "",
   "valorOriginal" : "https://page.net",
   "valorNormalizado" : "https://page.net",
   "esValido" : true
-}, {
+}, 
+
+{
   "campo" : "monto",
   "motivo" : "",
   "valorOriginal" : "1234.56",
@@ -88,19 +94,25 @@ monto, 5633.83, true, 5633.83,
   "valorOriginal" : "user1727@test.org",
   "valorNormalizado" : "user1727@test.org",
   "esValido" : true
-}, {
+}, 
+
+{
   "campo" : "telefono",
   "motivo" : "",
   "valorOriginal" : "+50216646838",
   "valorNormalizado" : "+50216646838",
   "esValido" : true
-}, {
+}, 
+
+{
   "campo" : "url",
   "motivo" : "",
   "valorOriginal" : "https://missingcolon.com",
   "valorNormalizado" : "https://missingcolon.com",
   "esValido" : true
-}, {
+}, 
+
+{
   "campo" : "monto",
   "motivo" : "",
   "valorOriginal" : "5633.83",
@@ -147,19 +159,25 @@ monto, 12, true, 12,
   "valorOriginal" : "bademail.com",
   "valorNormalizado" : "",
   "esValido" : false
-}, {
+},
+
+{
   "campo" : "telefono",
   "motivo" : "Formato invalido",
   "valorOriginal" : "1234",
   "valorNormalizado" : "",
   "esValido" : false
-}, {
+}, 
+
+{
   "campo" : "url",
   "motivo" : "Formato invalido",
   "valorOriginal" : "htt://fail.com",
   "valorNormalizado" : "",
   "esValido" : false
-}, {
+}, 
+
+{
   "campo" : "monto",
   "motivo" : "No es un número decimal válido",
   "valorOriginal" : "abc",
@@ -176,19 +194,25 @@ monto, 12, true, 12,
   "valorOriginal" : "user@@example.com",
   "valorNormalizado" : "",
   "esValido" : false
-}, {
+}, 
+
+{
   "campo" : "telefono",
   "motivo" : "Formato invalido",
   "valorOriginal" : "+50",
   "valorNormalizado" : "",
   "esValido" : false
-}, {
+}, 
+
+{
   "campo" : "url",
   "motivo" : "Formato invalido",
   "valorOriginal" : "https://wrong-url",
   "valorNormalizado" : "",
   "esValido" : false
-}, {
+}, 
+
+{
   "campo" : "monto",
   "motivo" : "",
   "valorOriginal" : "12",
