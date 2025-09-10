@@ -19,8 +19,7 @@ AGREGAR ESTAS DEPENDENCIAS/LIBRERIAS AL "pom.xml" DEL PROYECTO:
 </dependencies>
 
 Bien, acá en este archivo daré una breve explicación de como funciona y que fue lo que hice para realizar mi proyecto. Utilicé el lenguaje de programación Java en donde hice mi aplicación
-la cual va a poder leer archivos .CSV y generar archivos de salida .CSV/.JSON por medio de las dependencias que adjunté al principio de este documento. Esas dependencias (Apache Commons CSV
-- Jackson) permiten manipular archivos CSV y JSON con los cuales nosotros justamente vamos a trabajar. Bien, luego dentro de mi aplicación Java clasifiqué el programa en varias Clases cada
+la cual va a poder leer archivos .CSV y generar archivos de salida .CSV/.JSON por medio de las dependencias que adjunté al principio de este documento. Esas dependencias (Apache Commons CSV, Jackson) permiten manipular archivos CSV y JSON con los cuales nosotros justamente vamos a trabajar. Bien, luego dentro de mi aplicación Java clasifiqué el programa en varias Clases cada
 una con la lógica correspondiente a lo que se solicita, así mismo, quiero dar un pequeño ejemplo de lo que sucede.
 
 <!--2 EJEMPLOS DE CASOS VALIDOS-->
