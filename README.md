@@ -41,14 +41,22 @@ user1727@test.org, +50216646838, https://missingcolon.com, 5633.83
 campo, valor_original, es_valido, valor_normalizado, motivo
 <!--EJEMPLO 1--> 
 email, user774@example.com, true, user774@example.com,
+
 telefono, +50290969937, true, +50290969937,
+
 url, https://page.net, true, https://page.net,
+
 monto, 1234.56, true, 1234.56,
+
 <!--EJEMPLO 2--> 
 email, user1727@test.org, true, user1727@test.org,
+
 telefono, +50216646838, true, +50216646838,
+
 url, https://missingcolon.com, true, https://missingcolon.com,
+
 monto, 5633.83, true, 5633.83,
+
 
 
 <!--DATOS DE SALIDA UN ARCHIVO LLAMADO: resultado.json-->
@@ -139,13 +147,20 @@ user@@example.com, +50, https://wrong-url, 12,34
 campo, valor_original, es_valido, valor_normalizado, motivo
 <!--EJEMPLO 1--> 
 email, bademail.com, false, ,Formato invalido
+
 telefono, 1234, false, ,Formato invalido
+
 url, htt://fail.com, false, ,Formato invalido
+
 monto, abc, false, ,No es un número decimal válido
+
 <!--EJEMPLO 2--> 
 email, user@@example.com, false, ,Formato invalido
+
 telefono, +50, false, ,Formato invalido
+
 url, https://wrong-url, false, ,Formato invalido
+
 monto, 12, true, 12,
 
 
