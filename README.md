@@ -24,13 +24,14 @@ una con la lógica correspondiente a lo que se solicita, así mismo, quiero dar 
 
 <!--2 EJEMPLOS DE CASOS VALIDOS-->
 <!--DATOS DE ENTRADA UN ARCHIVO LLAMADO: DATOS_ENTRADA.csv-->
+- 2 EJEMPLOS DE CASOS VALIDOS 
 ARCHIVO DE ENTRADA .csv -------> DATOS_ENTRADA.csv
 <!--COLUMNAS DATOS DE ENTRADA-->
 email,telefono,url,monto
 <!--EJEMPLO 1--> 
-user774@example.com,+50290969937,https://page.net,1234.56
+user774@example.com, +50290969937, https://page.net, 1234.56
 <!--EJEMPLO 2--> 
-user1727@test.org,+50216646838,https://missingcolon.com,5633.83
+user1727@test.org, +50216646838, https://missingcolon.com, 5633.83
 
 
 
@@ -39,15 +40,15 @@ ARCHIVO DE SALIDA .csv --------> resultado.csv
 <!--COLUMNAS DATOS DE SALIDA-->
 campo,valor_original,es_valido,valor_normalizado,motivo
 <!--EJEMPLO 1--> 
-email,user774@example.com,true,user774@example.com,
-telefono,+50290969937,true,+50290969937,
-url,https://page.net,true,https://page.net,
-monto,1234.56,true,1234.56,
+email, user774@example.com, true, user774@example.com,
+telefono, +50290969937, true, +50290969937,
+url, https://page.net, true, https://page.net,
+monto, 1234.56, true, 1234.56,
 <!--EJEMPLO 2--> 
-email,user1727@test.org,true,user1727@test.org,
-telefono,+50216646838,true,+50216646838,
-url,https://missingcolon.com,true,https://missingcolon.com,
-monto,5633.83,true,5633.83,
+email, user1727@test.org, true, user1727@test.org,
+telefono, +50216646838, true, +50216646838,
+url, https://missingcolon.com, true, https://missingcolon.com,
+monto, 5633.83, true, 5633.83,
 
 
 <!--DATOS DE SALIDA UN ARCHIVO LLAMADO: resultado.json-->
